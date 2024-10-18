@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: rgb(110, 212, 212);
+}
+
+canvas {
+  display: block;
+}
+
+#scoreText {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 24px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+#redirectButton {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #FF4500;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  display: none; /* Oculta o botão até o fim do jogo */
+}
+
+#redirectButton:hover {
+  background-color: #FF6347;
+}
