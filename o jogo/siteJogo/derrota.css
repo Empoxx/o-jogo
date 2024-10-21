@@ -1,7 +1,0 @@
-body {
-    background-image: url("imgs/gatorindo.png"); /* Caminho da imagem */
-    background-size: cover; /* Ajusta a imagem para cobrir toda a área */
-    background-repeat: no-repeat; /* Evita que a imagem se repita */
-    background-position: center; /* Centraliza a imagem */
-    background-attachment: fixed; /* Faz a imagem se mover com o scroll */
-}
