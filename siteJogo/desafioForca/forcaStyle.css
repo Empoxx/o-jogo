@@ -1,0 +1,114 @@
+/* Reset básico para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #4b4848;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Estilo para o contêiner principal */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Canvas da forca */
+#forca {
+    margin: 20px auto;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+
+/* Palavras e letras */
+#palavra-secreta {
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+#letras {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#letras button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#letras button:hover {
+    background-color: #0056b3;
+}
+
+/* Mensagem de vitória ou derrota */
+#mensagem {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Botão Continuar */
+#botaoHTML {
+    text-decoration: none;
+}
+
+#botaoCont {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 20px 30px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none; /* Começa invisível */
+    margin-top: 20px;
+}
+
+#botaoCont:hover {
+    background-color: #218838;
+}
+
+/* Ajustes para dispositivos móveis */
+@media (max-width: 500px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    #palavra-secreta {
+        font-size: 1.2rem;
+    }
+
+    #letras button {
+        padding: 8px 10px;
+        font-size: 0.9rem;
+    }
+}
